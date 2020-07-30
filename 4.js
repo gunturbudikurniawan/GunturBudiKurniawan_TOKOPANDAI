@@ -1,15 +1,27 @@
-function halfPiramid(str) {
-  for (var i = 0; i < str.length; i++) {
-    var s = "";
+function reverse(str) {
+  // return str.split("").reverse().join("");
+  let newStr = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    newStr += str[i];
+  }
+  return newStr;
+}
+function rightPyramid(str) {
+  // Code disini
+  const len = str.length;
+  const whitespace = " ";
 
-    for (var k = 0; k < str.length; k++) {
-      if (k < i) {
-        s += " ";
-      } else {
-        s += str[k];
-      }
+  for (let i = 0; i < len; i++) {
+    let result = "";
+    let substring = str.substring(len - i - 1, len);
+
+    for (let j = len; j > i; j--) {
+      result += whitespace;
     }
-    console.log(s);
+
+    result += i % 2 === 1 ? substring : reverse(substring);
+    console.log(result);
   }
 }
-halfPiramid("budi");
+
+rightPyramid("javascript");

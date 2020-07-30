@@ -1,10 +1,10 @@
 function balikKata(kata) {
-  var terbalik = "";
-  for (var j = kata.length - 1; j >= 0; j--) {
+  // Code disini
+  let terbalik = "";
+  for (let j = kata.length - 1; j >= 0; j--) {
     terbalik += kata[j];
   }
   return terbalik;
-  // you can only write your code here!
 }
 
 // TEST CASES

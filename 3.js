@@ -1,11 +1,11 @@
 function gantiKata(kata) {
-  // you can only write your code here!
-  var newSentence = "";
-  var vokalBesar = "AIUEO";
-  var vokalKecil = "aiueo";
-  for (var i = 0; i < kata.length; i++) {
-    var flag = true;
-    for (var j = 0; j < vokalBesar.length; j++) {
+  // Code disini
+  let newSentence = "";
+  let vokalBesar = "AIUEO";
+  let vokalKecil = "aiueo";
+  for (let i = 0; i < kata.length; i++) {
+    let flag = true;
+    for (let j = 0; j < vokalBesar.length; j++) {
       if (kata[i] == vokalBesar[j]) {
         newSentence += "$";
         flag = false;

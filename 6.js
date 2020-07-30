@@ -1,8 +1,9 @@
 function deepSum(arr) {
-  var temp = 0;
-  for (var i = 0; i < arr.length; i++) {
-    for (var j = 0; j < arr[i].length; j++) {
-      for (var k = 0; k < arr[i][j].length; k++) {
+  // Code disini
+  let temp = 0;
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr[i].length; j++) {
+      for (let k = 0; k < arr[i][j].length; k++) {
         temp += arr[i][j][k];
       }
     }
@@ -11,7 +12,6 @@ function deepSum(arr) {
     return "No Number";
   }
   return temp;
-  // Code disini
 }
 
 //TEST CASE

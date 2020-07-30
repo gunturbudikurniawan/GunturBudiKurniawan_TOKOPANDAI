@@ -1,10 +1,11 @@
 function sittingArrangement(person, column) {
+  // Code disini
   let kursi = [];
   let antrian = [];
   if (column < 1) {
     return "invalid number";
   } else {
-    for (var j = 0; j < person.length; j++) {
+    for (let j = 0; j < person.length; j++) {
       if (person.length % column !== 0) {
         person.push("kursi kosong");
       }
