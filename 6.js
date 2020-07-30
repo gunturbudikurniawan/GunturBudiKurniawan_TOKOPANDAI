@@ -1,5 +1,4 @@
 function deepSum(arr) {
-  // Code disini
   let temp = 0;
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].length; j++) {
@@ -14,7 +13,6 @@ function deepSum(arr) {
   return temp;
 }
 
-//TEST CASE
 console.log(
   deepSum([
     [
@@ -33,7 +31,7 @@ console.log(
       [2, 4, 5, 10],
     ],
   ])
-); // 316
+);
 
 console.log(
   deepSum([
@@ -42,6 +40,6 @@ console.log(
     [[3, 5, 1], [1, 5, 3], [1]],
     [[2]],
   ])
-); // 156
+);
 
-console.log(deepSum([])); // No number
+console.log(deepSum([]));

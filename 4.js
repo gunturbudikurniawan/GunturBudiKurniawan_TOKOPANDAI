@@ -1,5 +1,4 @@
 function reverse(str) {
-  // return str.split("").reverse().join("");
   let newStr = "";
   for (let i = str.length - 1; i >= 0; i--) {
     newStr += str[i];
@@ -7,7 +6,6 @@ function reverse(str) {
   return newStr;
 }
 function rightPyramid(str) {
-  // Code disini
   const len = str.length;
   const whitespace = " ";
 

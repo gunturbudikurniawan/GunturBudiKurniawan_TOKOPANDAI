@@ -1,5 +1,4 @@
 function gantiKata(kata) {
-  // Code disini
   let newSentence = "";
   let vokalBesar = "AIUEO";
   let vokalKecil = "aiueo";
@@ -21,10 +20,9 @@ function gantiKata(kata) {
   return newSentence;
 }
 
-// TEST CASES
-console.log(gantiKata("Hello World and Coders")); // sredoC dna dlroW olleH
-console.log(gantiKata("John Doe")); // eoD nhoJ
-console.log(gantiKata("I am a bookworm")); // mrowkoob a ma I
-console.log(gantiKata("Coding is my hobby")); // ybboh ym si gnidoC
-console.log(gantiKata("Super")); // repuS
-console.log(gantiKata("i love jAvascript")); // repuS
+console.log(gantiKata("Hello World and Coders"));
+console.log(gantiKata("John Doe"));
+console.log(gantiKata("I am a bookworm"));
+console.log(gantiKata("Coding is my hobby"));
+console.log(gantiKata("Super"));
+console.log(gantiKata("i love jAvascript"));

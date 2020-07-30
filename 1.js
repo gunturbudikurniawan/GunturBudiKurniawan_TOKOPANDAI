@@ -1,4 +1,3 @@
-// Code disini
 for (i = 1; i <= 6; i++) {
   txt = "";
   for (j = i; j < 10; j++) {
